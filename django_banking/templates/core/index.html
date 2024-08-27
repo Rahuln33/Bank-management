@@ -1,0 +1,21 @@
+{% extends 'core/base.html' %} {% load static %} {% block head_title %}Banking System{% endblock %} {% block content %}
+<div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+
+    <div class="w-full lg:w-1/2 lg:py-6 text-center">
+        <h1 style="font-size: 12rem" class="font-black text-blue-900 text-opacity-50">&#x20B1;&#x20B1;</h1>
+    </div>
+    <div class="flex flex-col w-full lg:w-1/2 justify-center items-start pt-12 pb-24 px-6 bg-white rounded-2xl bg-opacity-70">
+        <h1 class="font-bold text-4xl my-4"> Banking Management System</h1>
+        <p class="leading-normal mb-4">
+            The Bank Management System is a comprehensive software solution designed to manage and 
+            streamline various banking operations. This system facilitates efficient handling of customer accounts,
+            transactions, loans, and other financial services. It ensures secure and smooth management of customer data, account balances, deposits, withdrawals, and fund transfers. Additionally, the system includes features for generating financial reports, managing user access, and providing real-time updates, making it an essential tool for modern banking operations.
+
+        </p>
+        <div class="flex justify-end w-full">
+            <a href="{% url 'accounts:user_registration' %}" class="bg-blue-900 text-white rounded-none hover:bg-white hover:text-blue-900 hover:border-blue-900 shadow hover:shadow-lg py-2 px-4 border border-gray-900 hover:border-transparent">Register</a>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
