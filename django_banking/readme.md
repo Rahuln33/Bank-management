@@ -1,20 +1,12 @@
-# **Simple Banking Management System in Python using Django Framework **
+# ** Bank Management System in Python using Django Framework **
 
 ==============================================================================================
 ## **Origianl Version Information**
-- **Developed by:** Maksudul Haque
-- **Download From:** [https://codeastro.com/simple-banking-system-in-python-django-with-source-code//](https://codeastro.com)
-==============================================================================================
-## **Modified Version Information**
-- **Modified by:** oretnom23
-- **Download From:** [https://sourcecodester.com/python-django-simple-banking-management-system-source-code/](https://sourcecodester.com)
-==============================================================================================
-
-
+- **Developed by:** Rahul
 ==============================================================================================
 ## **Admin Access**
-- **Email:** admin@mail.com
-- **Password:** admin123
+- **Email:** rahul@mail.com
+- **Password:** rahul@333
 ==============================================================================================
 
 ============================================================================
